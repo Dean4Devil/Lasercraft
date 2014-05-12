@@ -1,0 +1,15 @@
+[
+{
+  "modid" : "LaserCraft",
+  "name" : "Laser Craft",
+  "version" : "0.0.1",
+  "credits" : "",
+  "authorList": ["JoshTheEnder"],
+  "description": "A mod which plans to add many cool things to Minecraft",
+  "url" : "https://github.com/JoshTheEnder/LaserCraft",
+  "updateUrl" : "",
+  "logoFile" : "",
+  "parent" : "",
+  "screenshots": []
+}
+]

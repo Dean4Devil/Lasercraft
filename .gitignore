@@ -1,3 +1,9 @@
+bin/
+build/
+eclipse/
+.gradle/
+.settings/
+
 *.class
 
 # Package Files #

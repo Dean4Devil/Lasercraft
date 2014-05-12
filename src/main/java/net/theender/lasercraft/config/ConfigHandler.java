@@ -1,9 +1,9 @@
-package thatjoshgreen.lasercraft.config;
+package net.theender.lasercraft.config;
 
 import java.io.File;
 
 import net.minecraftforge.common.Configuration;
-import thatjoshgreen.lasercraft.blocks.BlockInfo;
+import net.theender.lasercraft.blocks.BlockInfo;
 
 public class ConfigHandler {
 	

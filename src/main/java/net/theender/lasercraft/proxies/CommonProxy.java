@@ -1,4 +1,4 @@
-package thatjoshgreen.lasercraft.proxies;
+package net.theender.lasercraft.proxies;
 
 public class CommonProxy {
 	

@@ -1,9 +1,9 @@
-package thatjoshgreen.lasercraft.items;
+package net.theender.lasercraft.items;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.util.Icon;
-import thatjoshgreen.lasercraft.utils.LaserTab;
+import net.theender.lasercraft.utils.LaserTab;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 

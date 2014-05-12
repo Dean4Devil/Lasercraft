@@ -1,4 +1,4 @@
-package thatjoshgreen.lasercraft.network;
+package net.theender.lasercraft.network;
 
 import net.minecraft.network.INetworkManager;
 import net.minecraft.network.packet.Packet250CustomPayload;

@@ -1,8 +1,8 @@
-package thatjoshgreen.lasercraft;
+package net.theender.lasercraft;
 
-import thatjoshgreen.lasercraft.items.Items;
-import thatjoshgreen.lasercraft.network.PacketHandler;
-import thatjoshgreen.lasercraft.proxies.CommonProxy;
+import net.theender.lasercraft.items.Items;
+import net.theender.lasercraft.network.PacketHandler;
+import net.theender.lasercraft.proxies.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -19,7 +19,7 @@ public class LaserCraft {
 	@Instance(ModInformation.ID)
 	public static LaserCraft instance;
 	
-	@SidedProxy(clientSide="thatjoshgreen.lasercraft.proxies.ClientProxy", serverSide="thatjoshgreen.lasercraft.proxies.CommonProxy")
+	@SidedProxy(clientSide="net.theender.lasercraft.proxies.ClientProxy", serverSide="net.theender.lasercraft.proxies.CommonProxy")
 	public static CommonProxy proxy;
 	
 	@EventHandler

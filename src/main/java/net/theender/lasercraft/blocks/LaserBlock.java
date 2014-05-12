@@ -1,4 +1,4 @@
-package thatjoshgreen.lasercraft.blocks;
+package net.theender.lasercraft.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

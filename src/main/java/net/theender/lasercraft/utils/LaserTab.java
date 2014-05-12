@@ -1,4 +1,4 @@
-package thatjoshgreen.lasercraft.utils;
+package net.theender.lasercraft.utils;
 
 import net.minecraft.creativetab.CreativeTabs;
 

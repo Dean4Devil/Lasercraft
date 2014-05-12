@@ -1,4 +1,4 @@
-package thatjoshgreen.lasercraft;
+package net.theender.lasercraft;
 
 public class ModInformation {
 	

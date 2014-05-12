@@ -1,4 +1,4 @@
-package thatjoshgreen.lasercraft.items;
+package net.theender.lasercraft.items;
 
 public class ItemInfo {
 	

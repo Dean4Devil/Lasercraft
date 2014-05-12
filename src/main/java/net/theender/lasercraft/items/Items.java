@@ -11,7 +11,7 @@ public class Items {
 	public static Item lens;
 	
 	public static void init() {
-		lens = new ItemLens(ItemInfo.LENS_ID);
+		lens = new ItemLens(ItemInfo.LENS_DEFAULT);
 	}
 	
 	public static void addNames() {

@@ -9,3 +9,5 @@ That's all for now folks!
 
 
 Also; the version scheme is going to be like <major code refractor>.<new feature>.<bugfix> so fixing a bug will do 0.0.+1 and a new feature will do 0.+1.0
+
+We also have a channel on EsperNet, it's tag is #LaserCraft, come join us (an pester me to do stuff on this :P)

@@ -19,7 +19,7 @@ public class ItemInfo {
 	
 	public static final String LENS_NAME = "Lens";
 	public static final String LENS_UNLOCALISED_NAME = "lens";
-	public static final String LENS_ICON = "itemlens";
+	public static final String LENS_ICON = "itemlensalt";
 	
 
 }

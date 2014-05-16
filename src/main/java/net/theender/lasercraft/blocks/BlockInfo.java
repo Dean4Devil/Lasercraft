@@ -6,7 +6,7 @@ public class BlockInfo {
 	
 	public static int LASERBLOCK_ID;
 	public static final String LASERBLOCK_KEY = "LaserBlock";
-	public static final int LASERBLOCK_DEFAULT = 2075;
+	public static final int LASERBLOCK_DEFAULT = 2076;
 	
 	public static final String LASERBLOCK_UNLOCALISED_NAME = "lazorBlock";
 	public static final String LASERBLOCK_NAME = "Laser Block";

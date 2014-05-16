@@ -10,3 +10,6 @@ eclipse/
 *.jar
 *.war
 *.ear
+
+.classpath
+.project

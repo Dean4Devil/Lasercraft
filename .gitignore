@@ -1,6 +1,8 @@
 bin/
 build/
 eclipse/
+out/
+run/
 .gradle/
 .settings/
 

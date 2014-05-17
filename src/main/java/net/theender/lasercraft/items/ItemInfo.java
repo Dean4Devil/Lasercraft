@@ -16,8 +16,7 @@ public class ItemInfo {
 	public static int LENS_ID;
 	public static final String LENS_KEY = "Lens";
 	public static final int LENS_DEFAULT = 24202;
-	
-	public static final String LENS_NAME = "Lens";
+
 	public static final String LENS_UNLOCALISED_NAME = "lens";
 	public static final String LENS_ICON = "itemlensalt";
 	

@@ -1,8 +1,8 @@
 package net.theender.lasercraft.items;
 
-import net.minecraft.client.renderer.texture.IconRegister;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
-import net.minecraft.util.Icon;
+import net.minecraft.util.IIcon;
 import net.theender.lasercraft.utils.LaserTab;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -10,17 +10,17 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class ItemLens extends Item {
 	
 	@SideOnly(Side.CLIENT)
-	private Icon icon;
+	private IIcon icon;
 	
-	public ItemLens(int id) {
-		super(id);
-		setCreativeTab(LaserTab.instance);
-		setUnlocalizedName(ItemInfo.LENS_UNLOCALISED_NAME);
+	public ItemLens() {
+		super();
+		this.setCreativeTab(LaserTab.instance);
+		this.setUnlocalizedName(ItemInfo.LENS_UNLOCALISED_NAME);
 	}
-	
-	@Override
+
+    @Override
 	@SideOnly(Side.CLIENT)
-	public void registerIcons(IconRegister iconRegister) {
+	public void registerIcons(IIconRegister iconRegister) {
 		this.itemIcon = iconRegister.registerIcon(ItemInfo.TEXTURE_LOCATION + ":" + ItemInfo.LENS_ICON);
 	}
 	

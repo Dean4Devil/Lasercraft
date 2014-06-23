@@ -14,3 +14,8 @@ run/
 
 .classpath
 .project
+
+# Idea Stuff #
+*.iml
+*.ipr
+*.iws

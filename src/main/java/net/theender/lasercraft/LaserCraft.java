@@ -10,10 +10,10 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.theender.lasercraft.items.ItemFile;
 import net.theender.lasercraft.proxies.CommonProxy;
 
-@Mod(modid = ModInformation.ID, name = ModInformation.NAME, version = ModInformation.VERSION)
+@Mod(modid = "lasercraft", name = "LaserCraft", version = "1.7.2-0.1")
 public class LaserCraft {
 	
-	@Instance(ModInformation.ID)
+	@Instance("lasercraft")
 	public static LaserCraft instance;
 	
 	@SidedProxy(clientSide="net.theender.lasercraft.proxies.ClientProxy", serverSide="net.theender.lasercraft.proxies.CommonProxy")

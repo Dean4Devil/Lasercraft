@@ -1,6 +1,6 @@
 package net.theender.lasercraft.proxies;
 
-public class CommonProxy {
+public class ServerProxy {
 	
 	public void initSounds() {
 		

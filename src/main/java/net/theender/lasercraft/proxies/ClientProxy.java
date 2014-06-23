@@ -1,6 +1,6 @@
 package net.theender.lasercraft.proxies;
 
-public class ClientProxy extends CommonProxy {
+public class ClientProxy extends ServerProxy {
 	
 	@Override
 	public void initRenderers() {

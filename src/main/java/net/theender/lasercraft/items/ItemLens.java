@@ -9,14 +9,16 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class ItemLens extends Item {
 	
-	@SideOnly(Side.CLIENT)
-	private IIcon icon;
+
 	
 	public ItemLens() {
 		super();
 		this.setCreativeTab(LaserTab.instance);
 		this.setUnlocalizedName(ItemInfo.LENS_UNLOCALISED_NAME);
 	}
+
+    @SideOnly(Side.CLIENT)
+    private IIcon icon;
 
     @Override
 	@SideOnly(Side.CLIENT)

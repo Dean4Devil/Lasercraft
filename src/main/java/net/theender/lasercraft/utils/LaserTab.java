@@ -2,8 +2,7 @@ package net.theender.lasercraft.utils;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.theender.lasercraft.items.ItemLens;
+import net.theender.lasercraft.items.ItemL;
 
 public class LaserTab extends CreativeTabs {
 	public static final LaserTab instance = new LaserTab();
@@ -18,7 +17,7 @@ public class LaserTab extends CreativeTabs {
 	}
 
     public Item getTabIconItem() {
-        return new ItemLens();
+        return new ItemL();
     }
 
 }

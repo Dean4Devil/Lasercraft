@@ -7,11 +7,11 @@ import net.theender.lasercraft.utils.LaserTab;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class ItemLens extends Item {
+public class ItemL extends Item {
 	
 
 	
-	public ItemLens() {
+	public ItemL() {
 		super();
 		this.setCreativeTab(LaserTab.instance);
 		this.setUnlocalizedName(ItemInfo.LENS_UNLOCALISED_NAME);

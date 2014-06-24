@@ -5,7 +5,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.theender.lasercraft.items.ItemFile;
+import net.theender.lasercraft.init.Items;
 import net.theender.lasercraft.proxies.ServerProxy;
 import net.theender.lasercraft.reference.Reference;
 
@@ -21,9 +21,9 @@ public class LaserCraft {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		//stub method apparently
-        //should probably stop writing sarcastic comments in the code....
-        //hmm, naa :P
-		ItemFile.init();
+        	//should probably stop writing sarcastic comments in the code....
+        	//hmm, naa :P
+		Items.init();
 	}
 	
 	@Mod.EventHandler

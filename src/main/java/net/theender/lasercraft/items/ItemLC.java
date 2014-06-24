@@ -7,9 +7,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.theender.lasercraft.utils.LaserTab;
 
-public class ItemL extends Item {
+public class ItemLC extends Item {
 
-	public ItemL() {
+	public ItemLC() {
 		super();
 		this.setCreativeTab(LaserTab.instance);
         this.maxStackSize = 1;

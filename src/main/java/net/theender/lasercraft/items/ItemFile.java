@@ -11,7 +11,7 @@ public class ItemFile {
 	public static Item lens;
 	
 	public static void init() {
-		lens = new ItemL();
+		lens = new ItemLC();
 	}
 	/*
 	public static void addNames() {

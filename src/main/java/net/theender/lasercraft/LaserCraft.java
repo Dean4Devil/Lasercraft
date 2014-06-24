@@ -5,7 +5,8 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.theender.lasercraft.init.Items;
+import net.theender.lasercraft.init.ModBlocks;
+import net.theender.lasercraft.init.ModItems;
 import net.theender.lasercraft.proxies.ServerProxy;
 import net.theender.lasercraft.reference.Reference;
 
@@ -23,12 +24,13 @@ public class LaserCraft {
 		//stub method apparently
         	//should probably stop writing sarcastic comments in the code....
         	//hmm, naa :P
-		Items.init();
+		ModItems.init();
+        ModBlocks.init();
 	}
 	
 	@Mod.EventHandler
 	public void load(FMLInitializationEvent  event) {
-		//Items.addNames();
+
 		
 		//ItemFile.registerRecipes();
 	}

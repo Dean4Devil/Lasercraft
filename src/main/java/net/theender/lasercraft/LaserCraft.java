@@ -30,7 +30,7 @@ public class LaserCraft {
 	public void load(FMLInitializationEvent  event) {
 		//Items.addNames();
 		
-		ItemFile.registerRecipes();
+		//ItemFile.registerRecipes();
 	}
 	
 	@Mod.EventHandler

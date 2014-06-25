@@ -10,6 +10,6 @@ public class BlockLaserEmitter extends BlockLC {
     public BlockLaserEmitter() {
         super(Material.iron);
         this.setHardness(2.5f);
-        this.setBlockName("laserBlock");
+        this.setBlockName("laserEmitter");
     }
 }

@@ -5,6 +5,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.theender.lasercraft.reference.Textures;
 import net.theender.lasercraft.utils.LaserTab;
 
 public class ItemLC extends Item {
@@ -17,18 +18,18 @@ public class ItemLC extends Item {
 
     @Override
     public String getUnlocalizedName() {
-        return String.format("item.%s%s", ItemInfo.TEXTURE_LOCATION, getUnwrappedUnlocalizedName(super.getUnlocalizedName()) );
+        return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()) );
     }
 
     @Override
     public String getUnlocalizedName( ItemStack itemStack) {
-        return String.format("item.%s%s", ItemInfo.TEXTURE_LOCATION, getUnwrappedUnlocalizedName(super.getUnlocalizedName()) );
+        return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()) );
     }
 
     @Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IIconRegister iconRegister) {
-		itemIcon = iconRegister.registerIcon(ItemInfo.TEXTURE_LOCATION + ":" + ItemInfo.LENS_ICON);
+		itemIcon = iconRegister.registerIcon(Textures.RESOURCE_PREFIX  + ItemInfo.LENS_ICON);
 	}
 
     protected String getUnwrappedUnlocalizedName(String unlocalizedName) {

@@ -26,14 +26,14 @@ public class ItemLC extends Item {
         return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()) );
     }
 
-    @Override
-	@SideOnly(Side.CLIENT)
-	public void registerIcons(IIconRegister iconRegister) {
-		itemIcon = iconRegister.registerIcon(Textures.RESOURCE_PREFIX  + ItemInfo.LENS_ICON);
-	}
-
     protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+    }
+
+    @Override
+    @SideOnly(Side.CLIENT)
+    public void registerIcons(IIconRegister iconRegister) {
+        itemIcon = iconRegister.registerIcon(Textures.RESOURCE_PREFIX  + getUnwrappedUnlocalizedName(super.getUnlocalizedName()).toLowerCase());
     }
 
 }

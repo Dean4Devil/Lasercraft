@@ -1,2 +1,4 @@
 item.lasercraft:glassLens.name=Lens
+item.lasercraft:laserDiode.name=Laser Diode
+
 tile.lasercraft:laserEmitter.name=Laser Emitter

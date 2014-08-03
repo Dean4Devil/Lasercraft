@@ -17,6 +17,11 @@ buildscript {
 
 apply plugin: 'forge'
 
+if (System.getenv().BUILD_NUMBER != null)
+    ext.buildNumber = System.getenv().BUILD_NUMBER?.toInteger()
+else
+    ext.buildNumber = 0
+
 version = "1.7.2-0.1"
 group= "net.theender.lasercraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "LaserCraft"
@@ -25,7 +30,7 @@ minecraft {
     version = "1.7.2-10.12.2.1121"
     assetDir = "eclipse/assets"
 }
-
+version = "${version}.Build${project.ext.buildNumber}"
 dependencies {
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..

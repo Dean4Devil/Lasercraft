@@ -7,7 +7,8 @@ This mod is going to add lasers ( no s**t Sherlock ) to minecraft which can do a
 
 That's all for now folks!
 
+Version schemeing is as follows: MCVersion-Major:Minor-BuildNumber
 
-Also; the version scheme is going to be like _major code refractor_._new feature_._bugfix_ so fixing a bug will do 0.0.+1 and a new feature will do 0.+1.0
+[![Build Status](http://www.theender.net:8080/buildStatus/icon?job=LaserCraft)](http://www.theender.net:8080/job/LaserCraft/)
 
 We also have a channel on EsperNet, it's tag is #LaserCraft, come join us (and pester me to do stuff on this :P)

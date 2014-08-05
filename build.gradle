@@ -22,13 +22,13 @@ if (System.getenv().BUILD_NUMBER != null)
 else
     ext.buildNumber = 0
 
-version = "1.7.2-0.1"
+version = "1.7.10-0.1"
 group= "net.theender.lasercraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "LaserCraft"
 
 minecraft {
-    version = "1.7.2-10.12.2.1121"
-    assetDir = "eclipse/assets"
+    version = "1.7.10-10.13.0.1180"
+    runDir = "run/assets"
 }
 version = "${version}.Build${project.ext.buildNumber}"
 dependencies {

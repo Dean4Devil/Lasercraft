@@ -14,4 +14,4 @@ Version schemeing is as follows: MCVersion-Major:Minor-BuildNumber
 We also have a channel on EsperNet, it's tag is #LaserCraft, come join us (and pester me to do stuff on this :P)
 
 
-Testing jenkins marking of successfull/failed builds on commits
+Testing jenkins marking of successfull/failed builds on commits, still testing.... (might need to be triggered by an actual commit)

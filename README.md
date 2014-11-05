@@ -12,6 +12,7 @@ Version schemeing is as follows: MCVersion-Major:Minor-BuildNumber
 [![Build Status](http://www.theender.net/jenkins/buildStatus/icon?job=LaserCraft)](http://www.theender.net/jenkins/job/LaserCraft/)
 
 We also have a channel on EsperNet, it's tag is #LaserCraft, come join us (and pester me to do stuff on this :P)
+If you do stuff right [->this<-](irc://esper.net/) should be clickable and work.
 ^ Do ^ that ^ NAOW!! ^ !! ^ !! ^ !! ^ !!
 
 
